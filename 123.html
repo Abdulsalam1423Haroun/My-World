@@ -1,0 +1,133 @@
+<html>
+  <head>
+    <title>Learn jQuery</title>
+    <script src="C:\Users\ASUS\Desktop\HTML FILES\java\JS\java2.js"></script>
+    <script src="C:\Users\ASUS\Desktop\HTML FILES\java\JS\java1.js"></script>
+
+    <style>
+      .blog {
+  width: 60%;
+  margin: 50px auto;
+  color: #7e7e80;
+  line-height: 1.8;
+  text-align: center;
+}
+.blog h1 {
+  font-size: 48px;
+}
+/*-------*/
+.box {
+  width: 500px;
+  margin: 50px auto;
+  padding: 15px;
+  border: 3px solid purple;
+  position: relative;
+}
+.box-close {
+  color: white;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  font-family: sans-serif;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: black;
+}
+.box-close:hover {
+  background-color: bisque;
+  color: purple;
+  box-shadow: inset 0px 0px 0px 2px purple;
+  cursor: pointer;
+}
+/*-----------*/
+.faq {
+  padding: 10px;
+  margin-bottom: 50px;
+  background-color: antiquewhite;
+  border: 1px dotted purple;
+}
+.question {
+  color: #000;
+  font-family: monospace;
+}
+.pointer {
+  color: blue;
+  cursor: pointer;
+}
+.more {
+  border: 10px solid #000;
+}
+.more-items {
+  width: 550px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1.8;
+  font-size: 18px;
+}
+.img {
+  float: left;
+  padding-right: 20px;
+}
+.icon {
+  float: left;
+}
+#jQuery {
+  font-size: 35px;
+}
+
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <section>
+        <div class="blog">
+          <h1>Learn About jQuery</h1>
+          <p style="direction: rtl" id="jQuery">
+            In fact, you can learn jQuery from many free resources, but now I
+            will give you the best free learning vignette for it which I used.
+          </p>
+          <!--BOXEX-->
+
+          <p class="box">
+            <span class="box-close">x</span>
+            <b>You Can Lean About jQuery Fron here</b>
+
+            <img src="Hi.png" />
+            <br />
+            <a href="https://www.youtube.com/watch?v=HwkwEi5KKBE"
+              ><b>Click to go to the video</b></a
+            >
+          </p>
+
+          <p class="box">
+            <span class="box-close">x</span>
+            <b>You Can Lean About JavaScript Fron here</b>
+
+            <img src="Hi.png" />
+            <br />
+            <a href="https://youtu.be/RztOLHkp6nw"
+              ><b>Click to go to the video</b></a
+            >
+          </p>
+
+          <!--FAQ-->
+          <div class="faq">
+            <span class="icon">>></span>
+            <h2 class="question">What is it really jQuery ?!</h2>
+            <p calss="answer">
+              The jQuery library is a huge JavaScript library that has many
+              functions like all giant libraries that we can add and work with
+              with JavaScript.
+            </p>
+            >
+          </div>
+          <div class="more">
+            <a id="more" href="">More pages Here!</a>
+            <p id="place-holder" style="direction: rtl"></p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
